@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>jQuery在线选座(影院版)</title>
+		<!--<meta name="keywords" content="jQuery在线选座,jQuery选座系统" />
+		<meta name="description" content="jquery.seat-charts是一款适合电影票、高铁票的在线选座插件。" />-->
+		<link rel="stylesheet" href="css/jq22.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+<body>
+	<div class="container">
+		<div class="demo clearfix">
+			<!---左边座位列表----->
+			<div id="seat_area">
+				<div class="front">屏幕</div>
+			</div>
+			<!---右边选座信息----->
+			<div class="booking_area">
+				<p>电影：<span>环游寻海记</span></p>
+				<p>时间：<span>12月20日 22:15</span></p>
+				<p>座位：</p>
+				<ul id="seats_chose"></ul>
+				<p>票数：<span id="tickects_num">0</span></p>
+				<p>总价：<b>￥<span id="total_price">0</span></b></p>
+				<input type="button" class="btn" value="确定购买" />
+				<div id="legend"></div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-1.8.2.min.js" ></script>
+	<script type="text/javascript" src="js/jquery.seat-charts.min.js" ></script>
+	<script type="text/javascript" src="js/index.js" ></script>
+</body>
+</html>
